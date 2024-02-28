@@ -1,0 +1,48 @@
+img{
+    height: 30px;
+}
+#tick{
+    height: 32px;
+    margin-bottom: 4px;
+}
+#cross{
+    height: 20px;
+}
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+}
+.todoitems-container{
+    display: flex;
+}
+.todoitems-text{
+    padding-left: 16px;
+    color: #404040;
+    font-size: 22px;
+}
+.todoitems-cross-icon{
+    cursor: pointer;
+    padding-right: 25px;
+}
+.line-through{
+    text-decoration: line-through solid #404040 2px;
+}
+@media(max-width: 700px){
+    .todoitems-text{
+        padding-left: 16px;
+        color: #404040;
+        font-size: 12px;
+    }
+    #tick{
+        height: 22px;
+        margin-bottom: 4px;
+    }
+    #cross{
+        height: 14px;
+    }
+    img{
+        height: 17px;
+    }
+}

@@ -1,0 +1,39 @@
+Contents :
+
+React Components
+JSX Working
+Rendering List
+useState
+useRef
+useEffect
+Passing Props
+Event Handeling
+
+What is React ?
+# React is a frontend Javascript library that is used to build interactive user interface
+# using React we can create Single Page Application(SPA)
+
+JSX 
+# JSX stands for Javascript Syntax Extension
+# In JSX we can write HTML & Javascript in a single file
+
+Installation
+
+# Node.js (check npm --version)
+
+# Powershell : 
+	# npm create vite@latest
+	# Select  framework : React
+	# Select variant : Javascript + SWC
+# Terminal : 
+	# cd projectname
+	# npm install
+	# npm run dev 
+
+# App.jsx main entry point : clean this file 
+
+# src : 
+	#create a folder components inside src
+
+
+
